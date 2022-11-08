@@ -8,6 +8,14 @@ body {
     background-size: cover;
 }
 
+#vanta {
+    z-index: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
 header {
     margin-top: 4em;
     display: flex;
@@ -35,7 +43,6 @@ header > h1 {
     padding: 0.5em 1.5em;
     border: 1px solid #fffa;
 }
-
 
 ul {
     box-sizing: border-box;
