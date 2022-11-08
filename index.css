@@ -67,6 +67,7 @@ ul > li {
 
 ul > li > a {
     display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: black;
     flex-direction: row;
     justify-content: center;
