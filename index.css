@@ -21,6 +21,7 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
+    
 }
 
 
@@ -31,6 +32,7 @@ height: 7em;
 border-radius: 100%;
 border: 1px solid white;
 box-shadow: white 0px 2px 12px 0px;
+z-index: 1;
 }
 
 header > h1 {
@@ -42,6 +44,7 @@ header > h1 {
     color: #fff;
     padding: 0.5em 1.5em;
     border: 1px solid #fffa;
+    z-index: 1;
 }
 
 ul {
