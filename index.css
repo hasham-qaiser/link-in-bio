@@ -1,6 +1,11 @@
 body {
-    background: black;
+    background: #9e9999;
     color: white;
+}
+
+body {
+    background: url(./images/justin-van-aken-6RpCrK8nAxk-unsplash.jpg) repeat center center fixed;
+    background-size: cover;
 }
 
 header {
@@ -13,10 +18,23 @@ header {
 
 
 header > img {
+width: 7em;
+height: 7em;
 border-radius: 100%;
 border: 1px solid white;
+box-shadow: white 0px 2px 12px 0px;
 }
 
+header > h1 {
+    display: inline-block;
+    font-size: 1.2em;
+    font-weight: bold;
+    border-radius: 1em;
+    background-color: #000a;
+    color: #fff;
+    padding: 0.5em 1.5em;
+    border: 1px solid #fffa;
+}
 
 
 ul {
@@ -24,22 +42,29 @@ ul {
     list-style: none;
     margin: 0 auto;
     padding: 2em;
+    max-width: 480px;
 
 }
 
 ul > li {
-    background: white;
+    background: #fffa;
+    backdrop-filter: blur(5px) saturate(160%) contrast(180%);
     border-radius: 5em;
     padding: 1em;
-    margin: 1em auto;
+    margin: 1.7em 0;
     box-shadow: 0 0 0.5em #000a;
-    text-align: center;
+   
 
 }
 
 
 ul > li > a {
+    display: flex;
     color: black;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     text-decoration: none;
+    gap: 0.5em;
 
 }
