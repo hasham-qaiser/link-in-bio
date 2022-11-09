@@ -53,6 +53,7 @@ ul {
     margin: 0 auto;
     padding: 2em;
     max-width: 480px;
+    z-index: 1;
 
 }
 
@@ -63,6 +64,7 @@ ul > li {
     padding: 1em;
     margin: 1.7em 0;
     box-shadow: 0 0 0.5em #000a;
+    z-index: 1;
    
 
 }
@@ -77,5 +79,6 @@ ul > li > a {
     align-items: center;
     text-decoration: none;
     gap: 0.5em;
+    z-index: 1;
 
 }
